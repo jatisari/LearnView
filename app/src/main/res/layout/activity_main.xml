@@ -54,4 +54,33 @@
         android:layout_alignParentStart="true"
         android:id="@+id/spinnerCourse" />
 
+    <AutoCompleteTextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerCourse"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/autoCompleteTextViewKota" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/autoCompleteTextViewKota"
+       >
+
+        <RadioButton
+            android:text="Pria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButtonPria" />
+
+        <RadioButton
+            android:text="Wanita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButtonWanita" />
+    </RadioGroup>
+
 </RelativeLayout>
